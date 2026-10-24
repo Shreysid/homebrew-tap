@@ -1,6 +1,6 @@
 cask "sotto" do
-  version "1.0.1"
-  sha256 "3e95ef91fcde784d7a809d69d942d77d14e2dd1daabbd6a2e8cb2cac19852b63"
+  version "0.1.0"
+  sha256 "73951582c760f2e9a376c3bc4fd2be33fda6cb72c613272b41ac6276402bb508"
 
   url "https://github.com/Shreysid/Sotto/releases/download/v#{version}/Sotto-#{version}.zip"
   name "Sotto"
@@ -12,7 +12,7 @@ cask "sotto" do
   app "Sotto.app"
 
   caveats <<~EOS
-    Sotto 1.0.1 is an unsigned preview build.
+    Sotto 0.1.0 is an unsigned preview build.
     If macOS blocks its first launch, open Sotto from Applications once, then
     choose Open Anyway in System Settings > Privacy & Security.
   EOS
